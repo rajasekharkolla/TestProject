@@ -6,6 +6,15 @@ assertThat(mongoMenuItem.getMenuItemJson().getCondimentSets(),contains(
 				hasProperty("condimentSetId", is(2048L))
 			));
 
+
+Adding random lines to create merge conflits
+aklsjdakls
+asdkjasd
+oweriuopei
+231423423
+;23k45345ks
+dfsdf
+
 			#!/usr/bin/env bash
 #
 #
@@ -22,6 +31,10 @@ for ip in 172.23.24.245 172.23.24.88 172.23.24.246 172.23.24.54 172.23.24.55 172
                                 echo "Copying files to the remote server#########################"
                                 ssh ${ip} "rm -rf /etc/wawa/wallet/*"
                                 scp /home/kollarr1/misc/passbook-2017-0518/WAWA_AppStore_Pass_2017.p12 ${ip}:/etc/wawa/wallet/
+				
+				
+Adding random lines to create merge conflits
+asdaksdjasdas;ldalksjdajkl;23045ijflskdjfldks
                                 echo "***********Changing permissions******************************"
                                 ssh ${ip} "chmod 600 /etc/wawa/wallet/WAWA_AppStore_Pass_2017.p12"
                                 ssh ${ip} "chown tomcat.tomcat /etc/wawa/wallet/WAWA_AppStore_Pass_2017.p12"
